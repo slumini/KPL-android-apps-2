@@ -1,0 +1,41 @@
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:orientation="vertical"
+
+    >
+
+
+  <ImageView
+    android:id="@+id/pic"
+    android:src="@drawable/grass"
+    android:layout_width="wrap_content"
+    android:scaleType="centerCrop"
+    android:layout_height="1000dp"
+
+  />
+    
+	<TextView
+       android:id="@+id/apptxt"
+  	   android:text="Android App Development!"
+ 	   android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+android:padding="15dp"
+       android:textSize="48sp"
+		android:textColor="#FFF"
+        
+    />
+    
+    <TextView
+       android:id="@+id/worktxt"
+  	   android:text="KPL Style!"
+ 	   android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentBottom="true"
+       android:layout_alignParentRight="true"
+	   android:textColor="#FFF"
+       android:textSize="32sp"
+       android:padding="15dp"
+    />        
+   
+</RelativeLayout>
